@@ -52,23 +52,6 @@ Extracted data is parsed and stored in a DynamoDB table. After processing, an em
 
 ---
 
-## Repository Structure
-
-```bash
-lambda/
-receipt-processing-function/
-
-textract/
-parsing-logic/
-
-database/
-dynamodb-schema
-
-sample-receipts/
-```
-
----
-
 ## Design Considerations
 
 **AI Integration**<br>
